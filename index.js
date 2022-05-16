@@ -4,7 +4,7 @@ const port = 4000;
 
 const server = http.createServer(function(request,response) {
     response.writeHead(200, { 'Content-Type' : 'text/html'})
-    response.write("<h1>HA</h1>");
+    response.write("<h1>Did you know that the planet Earth is flat?</h1>");
     response.end();
 });
 server.listen(port, function(error) {
